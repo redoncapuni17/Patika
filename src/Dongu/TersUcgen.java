@@ -16,8 +16,6 @@ public class TersUcgen {
                 System.out.print("*");
             }
             System.out.println(" ");
-
         }
-
     }
 }
