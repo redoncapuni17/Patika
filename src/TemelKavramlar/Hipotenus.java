@@ -1,24 +1,23 @@
 package TemelKavramlar;
 
-import java.util.Scanner;
+import java.util.*;
+import java.io.*;
 
-public class Hipotenus {
-    public static void main(String[] args){
-        int a,b;
-        double c;
-        Scanner inp=new Scanner(System.in);
-        System.out.print("1.Kenarı giriniz : ");
-        a=inp.nextInt();
-        System.out.print("2.Kenarı giriniz : ");
-        b=inp.nextInt();
-        System.out.print("3.Kenarı giriniz : ");
-        c=inp.nextInt();
-        inp.nextLine();
+class Main {
 
-        double u=(a+b+c)/2;
-        double alan;
-        alan=Math.sqrt(u*(u-a)*(u-b)*(u-c));
-        System.out.println("Alan : "+alan);
-
+    public static int FirstFactorial(int num) {
+        int fact = 1;
+        while(num>0){
+            fact=fact*num;
+            num--;
+        }
+        return num;
     }
+
+    public static void main (String[] args) {
+        // keep this function call here
+        Scanner s = new Scanner(System.in);
+        System.out.print(FirstFactorial(s.nextInt()));
+    }
+
 }
