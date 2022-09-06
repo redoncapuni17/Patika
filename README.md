@@ -1,3 +1,3 @@
 # Patika
-[Patika](https://www.patika.dev/)
+[Patika](https://www.patika.dev/).
 Java
